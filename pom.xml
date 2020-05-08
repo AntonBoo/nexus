@@ -12,7 +12,17 @@
 			<id>snapshots</id>
 			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
+		<repository>
+			<id>releases</id>
+			<url>http://localhost:8081/nexus/content/repositories/releases</url>
+		</repository>
 	</distributionManagement>
+	
+	<scm>
+		<connection>scm:git@github.com:AntonBoo/nexus.git</connection>
+		<developerConnection>scm:git@github.com:AntonBoo/nexus.git</developerConnection>
+		<url>scm:git@github.com:AntonBoo/nexus.git</url>
+	</scm>
 
 	<modules>
 		<module>nexus-app</module>
