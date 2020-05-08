@@ -19,9 +19,9 @@
 	</distributionManagement>
 	
 	<scm>
-		<connection>scm:git@github.com:AntonBoo/nexus.git</connection>
-		<developerConnection>scm:git@github.com:AntonBoo/nexus.git</developerConnection>
-		<url>scm:git@github.com:AntonBoo/nexus.git</url>
+		<connection>scm:git:git@github.com:AntonBoo/nexus.git</connection>
+		<developerConnection>scm:git:git@github.com:AntonBoo/nexus.git</developerConnection>
+		<url>scm:git:git@github.com:AntonBoo/nexus.git</url>
 	</scm>
 
 	<modules>
